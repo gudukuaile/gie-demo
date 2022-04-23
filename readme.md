@@ -54,9 +54,50 @@
 
 
 
+## 版本穿梭
+
+> git reset --hard 版本号
+
+![image-20220423211940927](https://gitee.com/nntt/md-img/raw/master/img/202204232130196.png)
 
 
 
+![image-20220423212103548](https://gitee.com/nntt/md-img/raw/master/img/202204232130524.png)
 
 
 
+![image-20220423212126485](https://gitee.com/nntt/md-img/raw/master/img/202204232130945.png)
+
+
+
+## 分支
+
+1. 查看分支
+
+   > git branch -v
+
+   ![image-20220423213543535](https://gitee.com/nntt/md-img/raw/master/img/202204232135571.png)
+
+2. 创建分支
+
+   创建分支后，使用查看分支命令，查看是否成功
+
+   > git branch 分支名称
+
+   ![image-20220423213811787](https://gitee.com/nntt/md-img/raw/master/img/202204232138825.png)
+
+3. 切换分支
+
+   > git checkout 分支名称
+
+   ![image-20220423214254972](https://gitee.com/nntt/md-img/raw/master/img/202204232142008.png)
+
+3. 合并分支
+
+   要和并到那个分支，首先需要切换到相应的分支
+
+   > git cheakout master
+   >
+   > git merge dev
+   >
+   > 先切换到master分支，再把dev合并到master分支
