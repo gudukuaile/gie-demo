@@ -27,3 +27,36 @@
 > git rm --cached 文件名称
 
 ![image-20220423174546852](https://gitee.com/nntt/md-img/raw/master/img/202204231745891.png)
+
+
+
+## 提交版本
+
+> git commit -m "提交信息" 文件名称
+
+![image-20220423175727269](https://gitee.com/nntt/md-img/raw/master/img/202204231757301.png)
+
+
+
+## 查看版本信息
+
+1. 简单查看
+
+   > git reflog
+
+   ![image-20220423180038438](https://gitee.com/nntt/md-img/raw/master/img/202204231800473.png)
+
+2. 详细查看
+
+   > git log
+
+   ![image-20220423180252579](https://gitee.com/nntt/md-img/raw/master/img/202204231802610.png)
+
+
+
+
+
+
+
+
+
