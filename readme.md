@@ -97,7 +97,21 @@
    要和并到那个分支，首先需要切换到相应的分支
 
    > git cheakout master
-   >
+>
    > git merge dev
-   >
+>
    > 先切换到master分支，再把dev合并到master分支
+
+5. 冲突合并
+
+   合并分支时，两个分支在**同一个文件的同一个位置**有两套不同的修改，git无法替我们决定使用哪一个，必须**人为**决定新代码呢容。
+
+   
+   
+   ![image-20220423220814533](https://gitee.com/nntt/md-img/raw/master/img/202204232209261.png)
+   
+   ![image-20220423220850247](https://gitee.com/nntt/md-img/raw/master/img/202204232209507.png)
+   
+   
+   
+   
