@@ -114,4 +114,24 @@
    
    
    
-   
+## 分支添加别名
+
+   > 查看别名
+   >
+   > git remote -v
+   >
+   > 添加别名
+   >
+   > git remote add 别名 github仓库url地址
+   >
+   > git remote add git-demo
+
+   ![image-20220424183551653](https://gitee.com/nntt/md-img/raw/master/img/202204241835998.png)
+
+
+
+## 推送本地库到远程
+
+> git push 别名(或者github仓库url地址) maste(分支名称)
+>
+> git push git-demo master
