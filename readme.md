@@ -135,3 +135,11 @@
 > git push 别名(或者github仓库url地址) maste(分支名称)
 >
 > git push git-demo master
+
+
+
+## 拉取远程仓库到本地
+
+> git pull 别名 分支名称
+>
+> git pull git-demo master
